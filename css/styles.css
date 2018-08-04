@@ -22,6 +22,14 @@ nav {
 	padding: 20px 0;
 }
 
+nav > a {
+	border-bottom: 2px solid transparent;
+}
+
+nav > a:hover {
+	border-color: white;
+}
+
 .headerLinks {
 	font-family: Raleway;
 	letter-spacing: 1px;
@@ -55,4 +63,36 @@ p {
 	margin-top: 40px;
 	margin-right: 8px;
 	margin-left: 8px;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
 }

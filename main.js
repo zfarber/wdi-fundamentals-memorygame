@@ -1,0 +1,1 @@
+var cardOne = "queen", cardTwo = "king", cardThree = "queen", cardFour = "king";
