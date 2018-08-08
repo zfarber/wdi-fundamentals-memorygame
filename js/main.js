@@ -35,7 +35,6 @@ function checkForMatch() {
 };
 
 function flipCard(element) {
-	console.log(element);
 	var data = element.getAttribute('data-id');
 	cardsInPlay.push(JSON.parse(data).rank);
 	element.setAttribute('src', JSON.parse(data).cardImage);
